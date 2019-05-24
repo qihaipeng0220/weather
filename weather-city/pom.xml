@@ -11,7 +11,7 @@
 		<groupId>com.qhp.weather</groupId>
 		<artifactId>qhp.weather</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath>../../qhpweather</relativePath>
+		<relativePath>../../weather</relativePath>
 	</parent>
 	<dependencies>
 		<dependency>

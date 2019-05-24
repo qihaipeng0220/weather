@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>齐的天气预报</title>
+</head>
+<body>
+<div>
+    <h3 th:text="${reportModel.title}">齐海鹏</h3>
+    <select>
+        <option th:each="city : ${reportModel.cityList}"
+        th:value="${city.cityId}" th:text="${city.cityName}">
+        </option>
+    </select>
+    <h1 th:text="${reportModel.report.city}">宝鸡</h1>
+    <p>当前温度：<span th:text="${reportModel.report.wendu}"></span></p>
+    <p>温馨提示：<span th:text="${reportModel.report.ganmao}"></span></p>
+</div>
+</body>
+</html>

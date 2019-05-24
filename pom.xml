@@ -13,6 +13,7 @@
         <module>weather-eureka</module>
         <module>weather-collection</module>
         <module>weather-data</module>
+        <module>weather-report</module>
     </modules>
 
     <dependencyManagement>
